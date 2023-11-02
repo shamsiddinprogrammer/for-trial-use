@@ -1,0 +1,48 @@
+.services {
+  padding-bottom: 104px;
+  background-image: url("../../icon/lines.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  &__start {
+    padding: 40px 121px 0 121px;
+    background: rgba(17, 19, 23, 0.50); 
+    border-radius: 20px; 
+    border: 1px #4E4E4E solid; 
+    backdrop-filter: blur(2px);
+    text-align: center;
+  }
+  &__title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 70px;
+  }
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    // gap: 100px;
+    &-item {
+      padding: 30px;
+      text-align: center;
+      width: 340px;
+      margin-bottom: 100px;
+      border: 2px solid rgba(14, 16, 20, 0.90); 
+      &__title {
+        font-size: 28px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        margin-top: 20px;
+      }
+      &__text {
+        color: rgba(255, 255, 255, 0.70);
+        font-size: 20px;
+        line-height: 28px;
+      }
+    }
+    &-item:hover{
+      border: 2px #fb3b06 solid; 
+      border-radius: 20px;
+      background-color: black;
+    }
+  }
+}

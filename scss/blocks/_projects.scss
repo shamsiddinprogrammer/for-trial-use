@@ -1,0 +1,90 @@
+.projects {
+  padding-bottom: 120px;
+  padding-top: 60px;
+  border-top: 1px solid #d21c9f;
+  background-image: url("../../icon/Ellipse1947.svg"),  url("../../icon/Ellipse1948.svg");
+  background-size: cover;
+  background-position: right, left;
+  &__title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  &__list {
+    width: 734px;
+    display: flex;
+    text-align: center;
+    background-color: rgba(17, 19, 23, 0.50);
+    border-radius: 90px; 
+    border: 1px #4E4E4E solid; 
+    backdrop-filter: blur(4px);
+    margin-left: 320px;
+    justify-content: center;
+    margin-bottom: 40px;
+    &-item {
+      padding: 18px 30px;
+      width: 266px;
+      border-radius: 30px;
+      border: 1px solid rgba(17, 19, 23, 0.50);
+      a {
+        color: #ffffff;
+      }
+    }
+    &-item:hover {
+      padding: 18px 30px;
+      border: 1px solid #3b18e7;
+      font-weight: 700;
+      background: linear-gradient(94deg, #1E11AD 0%, rgba(104.61, 17.32, 173.19, 0.95) 85%); 
+      border-radius: 30px;
+    }
+  }
+  &__img {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    &-group {
+      position: relative;
+      margin-bottom: 30px;
+      &__img{
+        position: absolute;
+        z-index: 100;
+        padding: 15px 20px;
+        right: 1px;
+      }
+      &__icon {
+        position: absolute;
+        z-index: 200;
+        padding: 15px 20px;
+        right: 1px;
+      }
+      &__text {
+        position: absolute;
+        z-index: 200;
+        bottom: 45px;
+        left: 40px;
+      }
+      &__btn {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        background-color: white; 
+        box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.10); 
+        border-radius: 10px;
+        padding: 9px 30px;
+        border: 0;
+      }
+      &-group:hover {
+        width: 403px;
+        height: 332px;
+        padding: 15px;
+        background-color: rgba(17, 19, 23, 0.50);
+      }
+    }
+  }
+  &__icon {
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 580px;
+  }
+}

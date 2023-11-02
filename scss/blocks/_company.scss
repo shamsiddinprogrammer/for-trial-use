@@ -1,0 +1,44 @@
+.company {
+  padding-top: 120px;
+  padding-bottom: 95px;
+  background-image: url("../../icon/Noise.svg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  &__start{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__left{
+    &-title {
+      font-size: 50px;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+    &-text {
+      width: 670px;
+      color: rgba(255, 255, 255, 0.80);
+      font-size: 18px;
+      line-height: 25.20px;
+    }
+  }
+  &__right {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    text-align: center;
+    span{
+      color: #0028F8;
+      font-size: 50px;
+      margin-bottom: 12px;
+      font-weight: 600;
+      line-height: 50px;
+    }
+    p {
+      font-size: 20px;
+      margin-bottom: 40px;
+    }
+  }
+}

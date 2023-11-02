@@ -1,0 +1,21 @@
+.hero {
+  background-color: black;
+  padding-top: 308px;
+  padding-bottom: 120px;
+  background-image: url("../../icon/photo.svg"), url("../../icon/Ellipse3.svg"),
+   url("../../icon/Ellipse4.svg"), url("../../img/Безназвания\(2\).png");
+  background-position: center, top, right -400px, 880px 150px;
+  background-size: cover, cover, cover, 600px 600px;
+  background-repeat: no-repeat;
+  &__title {
+    width: 600px;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 40px;
+ }
+  &__text {
+    font-size: 18px;
+    width: 560px;
+    margin-bottom: 180px;
+ }
+}
