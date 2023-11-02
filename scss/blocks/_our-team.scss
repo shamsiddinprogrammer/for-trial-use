@@ -1,0 +1,41 @@
+.our-team {
+  padding-bottom: 120px;
+  &__title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 40px;
+  }
+  &__start {
+    display: flex;
+    justify-content: space-between;
+
+  }
+  &__card {
+    position: relative;
+    &-group {
+      position: absolute;
+      padding: 15px 49px;
+      background-color: rgba(14, 16, 20, 0.90);
+      border-radius: 20px; 
+      border: 1px #4E4E4E solid;
+      backdrop-filter: blur(2px);
+      bottom: -40px;
+      left: 22px;
+      &__title {
+        font-size: 22px; 
+        font-weight: 600;
+        margin-bottom: 7px;
+      }
+      &__text {
+        margin-top: 7px;
+        font-style: italic;
+        font-weight: 900;
+      }
+    }
+    &-group:hover {
+      background: rgba(92, 104, 130, 075); 
+      border: 1px #fb3b06 solid; 
+    }
+  }
+}

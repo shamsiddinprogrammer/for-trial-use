@@ -74,6 +74,10 @@
         padding: 9px 30px;
         border: 0;
       }
+      &__btn:hover {
+        color: #ffffff;
+        background: linear-gradient(94deg, #1E11AD 0%, rgba(104.61, 17.32, 173.19, 0.95) 85%);
+      }
       &-group:hover {
         width: 403px;
         height: 332px;
